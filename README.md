@@ -25,6 +25,13 @@ This project analyzes customer data for a subscription service to identify segme
 
 ## Exploratory Data Analysis (EDA)
 
+ - Univariate analysis:
+  - Distribution of subscription types
+  - Distribution of customer demographics
+- Multivariate analysis:
+    - Correlation between subscription types and customer demographics
+    - Relationship between subscription duration and cancellation rate
+
 
 
 Data Analysis

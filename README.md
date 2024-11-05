@@ -6,8 +6,8 @@ This project aims to analyze customer data to understand subscription behavior, 
 
 
 ## Data Sources
-- Customer dataset (customer_data.csv)
-- Subscription dataset (subscription_data.csv)
+The primary data source used here is capstone Customer_Data.xlsx downloaded from the LMS Incubator dashboard.
+
 
 ## Tools Used
 

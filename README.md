@@ -6,7 +6,7 @@ This project aims to analyze customer data to understand subscription behavior, 
 
 
 ## Data Sources
-The primary data source used here is capstone Customer_Data.xlsx downloaded from the LMS Incubator dashboard.
+The primary Data used here is CustomerData.xslx. This data provide the LITA at IncubatorHub and was made available for download from CANVAS. Other Similar datasets can be freely downloaded from an open source oinline such as Kaggle or FRED or any other repository sites.
 
 
 ## Tools Used

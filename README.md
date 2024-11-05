@@ -1,7 +1,9 @@
 # Customer-Segmentation-Analysis
 
- ## Project Overview
-This project analyzes customer data for a subscription service to identify segments and trends.
+## Project Overview
+This project aims to analyze customer data to understand subscription behavior, track trends, and identify key segments.
+
+
 
 ## Data Sources
 - Customer dataset (customer_data.csv)
@@ -10,18 +12,28 @@ This project analyzes customer data for a subscription service to identify segme
 ## Tools Used
 
 - Excel for data cleaning and preparation
+
 - SQL Server for data analysis
+```SELECT 
+    CustomerID, 
+    SubscriptionStart, Canceled
+FROM 
+    [dbo].[CAPSTONE CLEANED  CUSTOMERDATA ]
+WHERE 
+    DATEDIFF(month, SubscriptionStart, Canceled) <= 6
+```
+ 
 - Power BI for data visualization
 
 ## Data Cleaning and Preparation
  Data cleaning steps:
-    - Handling missing values
-    - Data normalization
-    - Data transformation
+   - Handling missing values
+   - Data normalization
+   - Data transformation
     
   ## Data preparation steps:
-    - Data merging
-    - Data aggregation
+   - Data merging
+   - Data aggregation
 
 ## Exploratory Data Analysis (EDA)
 
@@ -34,27 +46,21 @@ This project analyzes customer data for a subscription service to identify segme
 
 
 
-Data Analysis
-
+## Data Analysis
 - SQL queries for data analysis:
     - Total customers by region
     - Most popular subscription type
     - Customers who canceled within 6 months
     - Average subscription duration
     - Total revenue by subscription type
-- Data modeling:
-    - Customer segmentation modeling
-    - Subscription type prediction modeling
-
+ 
 ## Data Visualization
-
 - Power BI dashboard:
     - Customer segmentation
     - Cancellation trends
     - Subscription trends
     - Revenue analysis
-    - Interactive slicers
+    
 
-## Findings and Recommendations
 
 

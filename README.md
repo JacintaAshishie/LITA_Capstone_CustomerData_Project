@@ -14,7 +14,8 @@ The primary Data used here is CustomerData.xslx. This data provide the LITA at I
 - Excel for data cleaning and preparation
 
 - SQL Server for data analysis
-```SELECT 
+```
+SELECT 
     CustomerID, 
     SubscriptionStart, Canceled
 FROM 

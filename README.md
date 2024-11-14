@@ -56,17 +56,12 @@ WHERE
     - Total revenue by subscription type
  
 ## Data Visualization
-- Power BI dashboard:
-    - Customer segmentation
-    - Cancellation trends
-    - Subscription trends
-    - Revenue analysis
-      
-      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/CUSTOMER-%20SEGMENTATION%20DASHBOARD.png))
-      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/M%2COST%20POPULAR%20SUBSCRIPTION%20TYPE.png))
-      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/SUM%20OF%20REVENUE%20BY%20SUBSCRIPTION%20TYPE.png))
-      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/AVERAGE%20REVENUE%20BY%20SUBSCRIPTION%20TYPE.png))
-      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/COUNT%20OF%20CUSTOMER%20ID%20BY%20CANCELED.png))
+### Power BI dashboard:    
+- Customer-Segmentation DashBoard ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/CUSTOMER-%20SEGMENTATION%20DASHBOARD.png))
+-  Most Popular SubscriptionTypes ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/M%2COST%20POPULAR%20SUBSCRIPTION%20TYPE.png))
+- Sum of Revenue By SubscriptionType ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/SUM%20OF%20REVENUE%20BY%20SUBSCRIPTION%20TYPE.png))
+- Average Revenue By SubscriptionType ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/AVERAGE%20REVENUE%20BY%20SUBSCRIPTION%20TYPE.png))
+- Count of Customers By Canceled ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/COUNT%20OF%20CUSTOMER%20ID%20BY%20CANCELED.png))
 
 
 

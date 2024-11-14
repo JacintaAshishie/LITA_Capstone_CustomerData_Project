@@ -66,6 +66,7 @@ WHERE
       ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/M%2COST%20POPULAR%20SUBSCRIPTION%20TYPE.png))
       ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/SUM%20OF%20REVENUE%20BY%20SUBSCRIPTION%20TYPE.png))
       ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/AVERAGE%20REVENUE%20BY%20SUBSCRIPTION%20TYPE.png))
+      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/COUNT%20OF%20CUSTOMER%20ID%20BY%20CANCELED.png))
 
 
 

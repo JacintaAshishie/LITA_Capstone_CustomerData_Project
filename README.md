@@ -26,34 +26,93 @@ WHERE
  
 - Power BI for data visualization
 
+## Data Dictionary
+Outline the terminology and definitions of key column headers specific to the dataset. This section ensures clarity for anyone reviewing the project.
+
+- CustomerID: Unique identifier for each customer.
+- CustomerName: Name of the customer.
+- Region: Geographic area where the customer is located.
+- SubscriptionType: Type of subscription chosen by the customer.
+- SubscriptionStart: Date when the subscription began.
+- SubscriptionEnd: Date when the subscription ended.
+- Canceled: Indicates if the subscription was canceled (True/False).
+- Revenue: Income generated from the customer's subscription.
+
 ## Data Cleaning and Preparation
- Data cleaning steps:
-   - Handling missing values
-   - Data normalization
-   - Data transformation
-    
-  ## Data preparation steps:
-   - Data merging
-   - Data aggregation
+In the initial phase of the data cleaning and preparations, we preform the following actions;
+- Data inspection and loading
+- Handling missing variables
+- Data cleaning and formatting
 
 ## Exploratory Data Analysis (EDA)
 
- - Univariate analysis:
-  - Distribution of subscription types
-  - Distribution of customer demographics
-- Multivariate analysis:
-    - Correlation between subscription types and customer demographics
-    - Relationship between subscription duration and cancellation rate
+ ### Customer Subscriptions
+This involved analysing the data to answer the following questions;
+
+- The total number of customers from each region.
+- The most popular subscription type by the number of customers.
+- Customers who canceled their subscription within 6 months.
+- The average subscription duration for all customers.
+- Customers with subscriptions longer than 12 months.
+- The total revenue by subscription type.
+- Top 3 regions by subscription cancellations.
+- The total number of active and canceled subscriptions.
 
 
 
 ## Data Analysis
-- SQL queries for data analysis:
-    - Total customers by region
-    - Most popular subscription type
-    - Customers who canceled within 6 months
-    - Average subscription duration
-    - Total revenue by subscription type
+### SQL queries for data analysis:
+
+ 1.  Retrieve the total number of customers from each region.
+ 
+```Select  region, count(distinct Customerid) as total_customers 
+from [dbo].[CustomerData]
+Group by region;
+```
+
+2. Find the most popular subscription type by the number of customers. 
+
+```Select top 1 subscriptiontype, count(distinct customerid) as total_customers
+From  [dbo].[CustomerData]
+Group by subscriptiontype 
+Order by total_customers desc;
+```
+
+ 3. Find customers who canceled their subscription within 6 months. 
+```Select customerid
+From [dbo].[CustomerData]
+Where datediff (month, subscriptionstart, subscriptionend) <= 6;
+```
+
+4.   Calculate the average subscription duration for all customers. 
+```Select avg(datediff(day, subscriptionstart, subscriptionend)) as avg_subscription_duration
+From [dbo].[CustomerData]
+```
+
+5.  Find customers with subscriptions longer than 12 months. 
+
+```SELECT CustomerID
+FROM [dbo].[CustomerData]
+WHERE DATEDIFF(month, SubscriptionStart, SubscriptionEnd) > 12;
+```
+
+6. Calculate total revenue by subscription type.
+
+```Select Subscriptiontype,
+Sum(revenue) as Total_revenue 
+From [dbo].[CustomerData]
+Group by subscriptiontype;
+```
+
+7.  Find the top 3 regions by subscription cancellations. 
+
+```Select top 3 region,
+Count(*) as subscriptionend_count
+From [dbo].[CustomerData]
+Where subscriptionend is null
+Group by region
+Order by subscriptionend_count desc;
+```
  
 ## Data Visualization
 ### Power BI dashboard:    

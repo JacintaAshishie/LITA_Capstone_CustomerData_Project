@@ -64,6 +64,7 @@ WHERE
       
       ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/CUSTOMER-%20SEGMENTATION%20DASHBOARD.png))
       ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/M%2COST%20POPULAR%20SUBSCRIPTION%20TYPE.png))
+      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/SUM%20OF%20REVENUE%20BY%20SUBSCRIPTION%20TYPE.png))
 
 
 

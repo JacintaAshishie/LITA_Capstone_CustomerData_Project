@@ -61,7 +61,7 @@ WHERE
     - Cancellation trends
     - Subscription trends
     - Revenue analysis
-    
+      ((https://github.com/JacintaAshishie/LITA_Capstone_CustomerData_Project/blob/main/CUSTOMER-%20SEGMENTATION%20DASHBOARD.png))
 
 
 
